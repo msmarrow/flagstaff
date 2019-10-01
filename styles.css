@@ -4,12 +4,7 @@ html {
     top: 0;
 }
 
-/* nav {
-    position: fixed;
-} */
-
 .main-logo {
-    /* margin-top: 10px; */
     margin-left: 20px;
     max-height: 70px;
 }
@@ -22,9 +17,8 @@ html {
 }
 
 .top-nav {
-    opacity:.95;
     width: 100%;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255, 0.9);
     max-height: 100px;
     padding-top:5px;
     padding-bottom:5px;
@@ -33,19 +27,31 @@ html {
     z-index:100000;
 }
 
+/* .top-nav:after {
+    opacity:.7
+} */
+
+a {
+    color: rgba(0, 0, 0, 0.842);
+}
+
 li { 
     color: rgba(0, 0, 0, 0.87);
     font-family: 'Avenir-Light';
-    margin-top: 1.5%;
+    margin-top: 1.7%;
     font-size: 14pt;
-    padding: 0;
+    /* padding: 0; */
     float: right;
     padding-right: 50px;
+    padding-left: 25px;
     z-index: 100;
+    text-decoration: none;
+
 } 
 
-li:hover {
+li:hover, a:hover {
     color: #1E90FF;
+    text-decoration: none;
 }
 
 .hero-pic {
@@ -68,9 +74,9 @@ li:hover {
     margin-top: 32%;
     font-family: 'Avenir';
     font-size: 100pt;
-    text-shadow: 1px 2px 1px black;
+    text-shadow: 1px 1px 2px black;
     box-shadow: 10px 0 0 #1E90FF, -10px 0 0 #1E90FF;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: left;
     line-height: 84pt;
     opacity: .95;
@@ -128,30 +134,27 @@ li:hover {
 
 .hood-left {
     width: 27%;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     float:right;
     opacity: .95;
-}
-
-.how-header {
-    /* margin-bottom: 20px; */
 }
 
 .how-it-works {
     background-color:#fff;
     margin-top: 0;
+    margin-bottom:0;
     font-family: 'Avenir-Black';
     color: rgba(14, 162, 236, 0.747);
 }
 
 .display-2 {
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .step-number {
     color: rgba(0, 0, 0, 0.808);
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .steps {
