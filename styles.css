@@ -4,6 +4,10 @@ html {
     top: 0;
 }
 
+body {
+    background-color: #FFFEFC;
+}
+
 .main-logo {
     margin-left: 20px;
     max-height: 70px;
@@ -31,7 +35,7 @@ html {
 /* TOP NAV AREA OF THE TEAM PAGE */
 .top-nav-team {
     width: 100%;
-    background-color: #fff;
+    background-color: #FFFEFC;
     max-height: 100px;
     padding-top:10px;
     padding-bottom:5px;
@@ -61,7 +65,7 @@ li {
     /* padding: 0; */
     float: right;
     padding-right: 50px;
-    padding-left: 25px;
+    /* padding-left: 5px; */
     z-index: 100;
     text-decoration: none;
 
@@ -156,7 +160,7 @@ RIGHT AFTER HERO IMAGE */
     clear: both;
     /* margin-top:80px; */
     font-family: 'Avenir-Medium';
-    background-color: #fff;
+    background-color:#FFFEFC;
     z-index: -100000;
     padding-bottom:0;
 }
@@ -178,7 +182,7 @@ RIGHT AFTER HERO IMAGE */
     font-family: 'Avenir';
     font-size: 64pt;
     /* color: rgba(255, 255, 255, 0.877); */
-    color:#1E90FF;
+    color:rgba(0, 0, 0, 0.747);
     /* float:right; */
     /* margin-right: 30%; */
     padding: 0;
