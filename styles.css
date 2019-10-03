@@ -52,7 +52,14 @@ body {
 .blog-svg {
     position: fixed;
     opacity: .9;
-    /* z-index: -10; */
+}
+
+.contact-svg {
+    width: 101%;
+    position: fixed;
+    opacity: .8;
+    margin-left: 0;
+    margin-top: 6%;
 }
 
 .team-container h1 {
@@ -134,8 +141,17 @@ li:hover, a:hover {
     background-color: #000;
 }
 
+.contact-card {
+    background-color: #FFFEFC;
+    margin-top: -10%;
+}
+
 .card-text, .form-group {
     color: #fff;
+}
+
+.card-text-contact {
+    color: rgba(0, 0, 0, 0.76);
 }
 
 /* DESCRIPTION OF PRODUCT ON MAIN PAGE, 
@@ -184,6 +200,22 @@ RIGHT AFTER HERO IMAGE */
     position: relative;
     z-index: 12;
     padding-bottom:0;
+}
+
+.contact-header-white {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+    font-family: 'Avenir';
+    font-size: 16pt;
+    background-color:rgba(255, 254, 252, 0);
+    position: fixed;
+    z-index: 12;
+    padding-bottom:0;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .menu-items-blog {
@@ -413,6 +445,34 @@ RIGHT AFTER HERO IMAGE */
     clear: both;
     background-color: #000;
     opacity: .88;
+}
+
+.contact-list {
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding-top: 0;
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: rgba(255, 254, 252, 0);
+    border-radius: 20px;
+}
+
+.contact-card {
+    /* border: 1px solid rgba(0, 0, 0, 0.849); */
+    border: none;
+    background-color: rgba(255, 254, 252, 0);
+    /* border-radius: 20px; */
+    margin-top: -12%;
+}
+
+.btn {
+    width: 100%;
+}
+
+.contact-message {
+    font-family: 'Avenir';
+    color: rgba(0, 0, 0, 0.808);
 }
 
 .footer {
