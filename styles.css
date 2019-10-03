@@ -23,9 +23,9 @@ body {
 /* TOP NAV AREA OF THE HOME PAGE */
 .top-nav {
     width: 100%;
-    background-color: rgb(255, 255, 255, 0.9);
+    background-color: rgb(255, 254, 252);
     max-height: 100px;
-    padding-top:5px;
+    padding-top:10px;
     padding-bottom:5px;
     border-bottom: 1pt solid rgba(0, 0, 0, 0.075);
     position: fixed;
@@ -42,6 +42,17 @@ body {
     /* border-bottom: 1pt solid rgba(0, 0, 0, 0.075); */
     position: fixed;
     z-index: 100000;
+}
+
+.team-svg {
+    position: fixed;
+    opacity: .25;
+    z-index: -1;
+}
+
+.team-container h1 {
+    position: relative;
+    z-index: 1000000;
 }
 
 /* .top-nav:after {
@@ -68,7 +79,6 @@ li {
     /* padding-left: 5px; */
     z-index: 100;
     text-decoration: none;
-
 } 
 
 li:hover, a:hover {
@@ -160,8 +170,9 @@ RIGHT AFTER HERO IMAGE */
     clear: both;
     /* margin-top:80px; */
     font-family: 'Avenir-Medium';
-    background-color:#FFFEFC;
-    z-index: -100000;
+    background-color:rgba(255, 254, 252, 0);
+    position: relative;
+    z-index: 100000;
     padding-bottom:0;
 }
 
@@ -191,8 +202,6 @@ RIGHT AFTER HERO IMAGE */
     vertical-align: middle;
 }
 
-
-
 .description h1 { 
     line-height: 48pt;
     font-size: 48pt;
@@ -207,7 +216,89 @@ RIGHT AFTER HERO IMAGE */
     font-family: 'Avenir';
     text-align: center;
     vertical-align: middle;
-    
+}
+
+.team-subheader {
+    font-family: 'Avenir';
+    font-size: 16pt;
+    color: rgba(0, 0, 0, 0.747);
+    text-align: justify;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+.team-values {
+    width: 75%;
+    background-color: rgba(255, 254, 252, 0);
+    vertical-align: middle;
+    margin: auto;
+}
+
+.team-text-container {
+    margin: auto;
+    width: 75%;
+    /* text-align: center; */
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
+
+.left-team-value {
+    height: 100%;
+    width: 33%;
+    background-color: rgba(255, 254, 252, 0);
+    /* float: left;
+    clear: both; */
+    position: relative;
+    z-index: 100000;
+    display:inline-block;
+}
+
+.willis-tower {
+    max-height: 120px;
+}
+
+.middle-team-value {
+    /* margin: auto; */
+    height: 100%;
+    width: 33%;
+    background-color: rgba(255, 254, 252, 0);
+    /* vertical-align: middle; */
+    position: relative;
+    z-index: 100000;
+    display:inline-block;
+}
+
+.right-team-value {
+    /* margin-top: -25.5%; */
+    /* vertical-align: top; */
+    /* float: right; */
+    /* clear: both; */
+    height: 100%;
+    width: 33%;
+    background-color: rgba(255, 254, 252, 0);
+    position: relative;
+    z-index: 100000;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.values-header {
+    padding-top: 5px;
+    font-family: 'Avenir';
+    font-size: 16pt;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.values-text {
+    font-family: 'Avenir';
+    text-align: center;
+    /* text-align: justify; */
+    text-align: left;
+    vertical-align: middle;
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.801);
 }
 
 .hood {
