@@ -29,19 +29,18 @@ body {
     padding-bottom:5px;
     border-bottom: 1pt solid rgba(0, 0, 0, 0.075);
     position: fixed;
-    z-index: 100000;
+    z-index: 10;
 }
 
 /* TOP NAV AREA OF THE TEAM PAGE */
 .top-nav-team {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFEFC;
     max-height: 100px;
     padding-top:10px;
     padding-bottom:5px;
-    /* border-bottom: 1pt solid rgba(0, 0, 0, 0.075); */
     position: fixed;
-    z-index: 100000;
+    z-index: 10;
 }
 
 .team-svg {
@@ -50,14 +49,16 @@ body {
     z-index: -1;
 }
 
-.team-container h1 {
-    position: relative;
-    z-index: 1000000;
+.blog-svg {
+    position: fixed;
+    opacity: .9;
+    /* z-index: -10; */
 }
 
-/* .top-nav:after {
-    opacity:.7
-} */
+.team-container h1 {
+    position: relative;
+    z-index: 10;
+}
 
 a {
     color: rgba(0, 0, 0, 0.842);
@@ -73,10 +74,8 @@ li {
     font-family: 'Avenir-Light';
     margin-top: 1.4%;
     font-size: 14pt;
-    /* padding: 0; */
     float: right;
     padding-right: 50px;
-    /* padding-left: 5px; */
     z-index: 100;
     text-decoration: none;
 } 
@@ -156,7 +155,6 @@ RIGHT AFTER HERO IMAGE */
     height: auto;
     float: left;
     clear: both;
-    /* margin-top:80px; */
     font-family: 'Avenir-Medium';
     background-color:#1E90FF;
     z-index: -100000;
@@ -168,21 +166,45 @@ RIGHT AFTER HERO IMAGE */
     height: auto;
     float: left;
     clear: both;
-    /* margin-top:80px; */
     font-family: 'Avenir-Medium';
     background-color:rgba(255, 254, 252, 0);
     position: relative;
-    z-index: 100000;
+    z-index: 12;
     padding-bottom:0;
+}
+
+.blog-header-white {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+    font-family: 'Avenir-Medium';
+    background-color:rgba(255, 254, 252, 0);
+    position: relative;
+    z-index: 12;
+    padding-bottom:0;
+}
+
+.menu-items-blog {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    float: right;
+    margin-top: 1%;
+}
+
+.logo-blog {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    float: left;
 }
 
 .team-header h1 {
     font-family: 'Avenir';
     font-size: 64pt;
-    /* color: rgba(255, 255, 255, 0.877); */
     color: rgb(221, 238, 247);
-    /* float:right; */
-    /* margin-right: 30%; */
     padding: 0;
     margin-top: 10%;
     text-align: center;
@@ -192,10 +214,17 @@ RIGHT AFTER HERO IMAGE */
 .team-header-white h1 {
     font-family: 'Avenir';
     font-size: 64pt;
-    /* color: rgba(255, 255, 255, 0.877); */
     color:rgba(0, 0, 0, 0.747);
-    /* float:right; */
-    /* margin-right: 30%; */
+    padding: 0;
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blog-header-white h1 {
+    font-family: 'Avenir';
+    font-size: 48pt;
+    color:rgba(0, 0, 0, 0.747);
     padding: 0;
     margin-top: 10%;
     text-align: center;
@@ -227,6 +256,15 @@ RIGHT AFTER HERO IMAGE */
     padding-top: 30px;
 }
 
+.blog-subheader {
+    font-family: 'Avenir';
+    font-size: 24pt;
+    color: #1E90FF;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
 .team-values {
     width: 75%;
     background-color: rgba(255, 254, 252, 0);
@@ -238,17 +276,20 @@ RIGHT AFTER HERO IMAGE */
 .team-text-container {
     margin: auto;
     width: 75%;
-    /* text-align: center; */
     vertical-align: middle;
     border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
+
+.blog-text-container {
+    margin: auto;
+    width: 75%;
+    vertical-align: middle;
 }
 
 .left-team-value {
     height: 100%;
     width: 30%;
     background-color: rgba(255, 254, 252, 0);
-    /* float: left;
-    clear: both; */
     position: relative;
     z-index: 100000;
     display:inline-block;
@@ -260,11 +301,9 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .middle-team-value {
-    /* margin: auto; */
     height: 100%;
     width: 30%;
     background-color: rgba(255, 254, 252, 0);
-    /* vertical-align: middle; */
     position: relative;
     z-index: 100000;
     display:inline-block;
@@ -273,10 +312,6 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .right-team-value {
-    /* margin-top: -25.5%; */
-    /* vertical-align: top; */
-    /* float: right; */
-    /* clear: both; */
     height: 100%;
     width: 30%;
     background-color: rgba(255, 254, 252, 0);
@@ -299,7 +334,6 @@ RIGHT AFTER HERO IMAGE */
 .values-text {
     font-family: 'Avenir';
     text-align: center;
-    /* text-align: justify; */
     text-align: left;
     vertical-align: middle;
     font-size: 12pt;
