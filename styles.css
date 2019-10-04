@@ -388,8 +388,8 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .how-it-works {
-    background-color:#fff;
-    margin-top: 0;
+    background-color:#FFFEFC;
+    margin-top: -100px;
     margin-bottom:0;
     font-family: 'Avenir-Black';
     color: rgba(14, 162, 236, 0.747);
@@ -482,6 +482,15 @@ RIGHT AFTER HERO IMAGE */
     width: 100%;
     float: left;
     clear: both;
+}
+
+.footer-contact {
+    /* margin: 0; */
+    /* height: 10%; */
+    width: 100%;
+    float: right;
+    clear: both;
+    background-color: rgba(30, 143, 255, 0.89);
 }
 
 .footer-text {
