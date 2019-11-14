@@ -323,12 +323,14 @@ RIGHT AFTER HERO IMAGE */
     border-bottom: 1px solid rgba(0, 0, 0, 0.048);
 }
 
+/* BLOG  */
 .blog-text-container {
     margin: auto;
     width: 75%;
     vertical-align: middle;
 }
 
+/* TEAM: leftmost item in set of 3 team values */
 .left-team-value {
     height: 100%;
     width: 30%;
