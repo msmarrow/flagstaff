@@ -43,10 +43,23 @@ body {
     width: 100%;
     background-color: #FFFEFC;
     max-height: 100px;
-    padding-top:10px;
+    padding-top:15px;
     padding-bottom:5px;
     position: fixed;
     z-index: 10;
+}
+
+.top-blog-menu {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    max-height: 50px;
+    padding-top:10px;
+    /* padding-bottom:5px; */
+    position: fixed;
+    z-index: 10;
+    margin-top: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .team-svg {
@@ -237,11 +250,35 @@ RIGHT AFTER HERO IMAGE */
     margin-top: 1%;
 }
 
-.logo-blog {
+.blog-cats {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    float: right;
+    margin-top: .1%;
+}
+
+.blog-cat {
+    color: #fff;
+    padding-left: 25px;
+}
+
+.logo-blog, .blog-header {
     position: relative;
     z-index: 100;
     display: inline-block;
     float: left;
+}
+
+.blog-header h2 {
+    font-family: 'Avenir-Light';
+    font-size: 24pt;
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 5%;
+    /* margin-top: 50%; */
+    /* text-align: center;
+    vertical-align: middle; */
 }
 
 .team-header h1 {
