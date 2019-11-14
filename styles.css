@@ -49,17 +49,32 @@ body {
     z-index: 10;
 }
 
+.top-nav-blog {
+    width: 100%;
+    background-color: #FFFEFC;
+    max-height: 100px;
+    padding-top:20px;
+    padding-bottom:1px;
+    /* position: fixed; */
+}
+
+.top-nav-blog li {
+    padding-top: 15px;
+}
+
 .top-blog-menu {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.89);
+    /* background-color: rgba(0, 0, 0, 0.89); */
+    background-color: rgba(0, 0, 0, 0);
     max-height: 50px;
     padding-top:10px;
+    padding-bottom:40px;
     /* padding-bottom:5px; */
-    position: fixed;
     z-index: 10;
     margin-top: 100px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.123);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+    /* border-bottom: 1px solid black; */
 }
 
 .team-svg {
@@ -99,7 +114,7 @@ a {
 li { 
     color: rgba(0, 0, 0, 0.87);
     font-family: 'Avenir-Light';
-    margin-top: 1.4%;
+    /* margin-top: 1.4%; */
     font-size: 14pt;
     float: right;
     padding-right: 50px;
@@ -214,7 +229,7 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .blog-header-white {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 100%;
     height: auto;
     float: left;
@@ -224,6 +239,17 @@ RIGHT AFTER HERO IMAGE */
     position: relative;
     z-index: 12;
     padding-bottom:0;
+}
+
+.blog-image-container {
+    /* margin-top: 50px; */
+    padding:0;
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+    background-color:rgba(255, 254, 252, 0);
+    position: relative;
 }
 
 .contact-header-white {
@@ -259,11 +285,12 @@ RIGHT AFTER HERO IMAGE */
     z-index: 100;
     display: inline-block;
     float: right;
-    margin-top: .1%;
+    /* margin-top: .1%; */
 }
 
 .blog-cat {
-    color: #fff;
+    /* color: #fff; */
+    color: rgb(0, 0, 0);
     padding-left: 25px;
 }
 
@@ -275,11 +302,12 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .blog-header h2 {
-    font-family: 'Avenir-Light';
-    font-size: 24pt;
-    color: #fff;
+    font-family: 'Avenir-Black';
+    font-size: 16pt;
+    /* color: #fff; */
+    color: rgba(0, 0, 0, 0.753);
     margin-left: 25px;
-    margin-top: 10%;
+    margin-top: 4%;
     /* margin-top: 50%; */
     /* text-align: center;
     vertical-align: middle; */
@@ -311,9 +339,13 @@ RIGHT AFTER HERO IMAGE */
     color:rgba(0, 0, 0, 0.747);
     padding-left: 0;
     margin-top: 8%;
-    margin-left: 25px;
+    margin-left: 75px;
     /* text-align: center;
     vertical-align: middle; */
+}
+
+.blog-header-image {
+    width: 75%;
 }
 
 .description h1 { 
@@ -344,7 +376,7 @@ RIGHT AFTER HERO IMAGE */
 .blog-subheader {
     font-family: 'Avenir';
     font-size: 18pt;
-    margin-left: 25px;
+    margin-left: 75px;
     color: rgba(0, 0, 0, 0.781);
     /* text-align: center;
     vertical-align: middle; */
@@ -370,7 +402,11 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .blog-metadata p {
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+.blog-header-image {
+    margin-left: 75px;
 }
 
 .team-text-container {
