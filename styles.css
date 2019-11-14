@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #FFFEFC;
+    /* background-color: #FFFEFC; */
 }
 
 .main-logo {
@@ -133,6 +133,10 @@ li:hover, a:hover {
     overflow: hidden;
 }
 
+.meta {
+    text-decoration: underline;
+}
+
 .hero-text {
     float: left;
     margin-top: 32%;
@@ -210,7 +214,7 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .blog-header-white {
-    margin-top: 5%;
+    margin-top: 50px;
     width: 100%;
     height: auto;
     float: left;
@@ -275,7 +279,7 @@ RIGHT AFTER HERO IMAGE */
     font-size: 24pt;
     color: #fff;
     margin-left: 25px;
-    margin-top: 5%;
+    margin-top: 10%;
     /* margin-top: 50%; */
     /* text-align: center;
     vertical-align: middle; */
@@ -302,13 +306,14 @@ RIGHT AFTER HERO IMAGE */
 }
 
 .blog-header-white h1 {
-    font-family: 'Avenir';
+    font-family: 'Avenir-Medium';
     font-size: 48pt;
     color:rgba(0, 0, 0, 0.747);
-    padding: 0;
-    margin-top: 10%;
-    text-align: center;
-    vertical-align: middle;
+    padding-left: 0;
+    margin-top: 8%;
+    margin-left: 25px;
+    /* text-align: center;
+    vertical-align: middle; */
 }
 
 .description h1 { 
@@ -338,11 +343,12 @@ RIGHT AFTER HERO IMAGE */
 
 .blog-subheader {
     font-family: 'Avenir';
-    font-size: 24pt;
-    color: #1E90FF;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 30px;
+    font-size: 18pt;
+    margin-left: 25px;
+    color: rgba(0, 0, 0, 0.781);
+    /* text-align: center;
+    vertical-align: middle; */
+    padding-top: 20px;
 }
 
 .team-values {
@@ -351,6 +357,20 @@ RIGHT AFTER HERO IMAGE */
     vertical-align: middle;
     margin: auto;
     border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
+
+.blog-lede {
+    width: 65%;
+    float: left;
+}
+
+.blog-metadata {
+    width: 35%;
+    float: right;
+}
+
+.blog-metadata p {
+    margin-top: 20px;
 }
 
 .team-text-container {
@@ -363,8 +383,7 @@ RIGHT AFTER HERO IMAGE */
 /* BLOG  */
 .blog-text-container {
     margin: auto;
-    width: 75%;
-    vertical-align: middle;
+    width: 100%;
 }
 
 /* TEAM: leftmost item in set of 3 team values */
